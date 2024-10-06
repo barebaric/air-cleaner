@@ -1,4 +1,4 @@
-# Air Filter
+# Smart Air Filter
 
 <img src="media/aircleaner.jpg" title="" alt="aircleaner.jpg" width="300"> <img src="media/aircleaner-open.jpg" title="" alt="aircleaner-open.jpg" width="300">
 
