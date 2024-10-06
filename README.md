@@ -1,6 +1,6 @@
 # Air Filter
 
-<img src="file:///home/sam/Documents/projects/hardware/ARCHIVE%20-%20Completed/Air%20Cleaner/media/aircleaner.jpg" title="" alt="aircleaner.jpg" width="300"> <img src="file:///home/sam/Documents/projects/hardware/ARCHIVE%20-%20Completed/Air%20Cleaner/media/aircleaner-open.jpg" title="" alt="aircleaner-open.jpg" width="300">
+<img src="media/aircleaner.jpg" title="" alt="aircleaner.jpg" width="300"> <img src="media/aircleaner-open.jpg" title="" alt="aircleaner-open.jpg" width="300">
 
 I wanted an air filter that is **cheap**, compatible with **Home Assistant**, and most importantly, **cheap to maintain**. So I went looking for filters that have a **low price per surface area** and are **widely available**.
 
