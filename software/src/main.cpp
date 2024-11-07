@@ -163,7 +163,16 @@ void callback(char* topic, byte* payload, unsigned int length) {
 }
  
 void reconnect() {
-  // Loop until we're reconnected
+  // If WiFi is down, try reconnecting.
+  while (WiFi.status() != WL_CONNECTED) {
+    Serial.println("Reconnecting to WiFi...");
+    WiFi.disconnect();
+    WiFi.reconnect();
+
+    delay(5000);
+  }
+
+  // Loop until MQTT server is reconnected.
   while (!client.connected()) {
     Serial.print("Attempting MQTT connection...");
     // Attempt to connect
@@ -176,7 +185,6 @@ void reconnect() {
       Serial.print("failed, rc=");
       Serial.print(client.state());
       Serial.println(" try again in 5 seconds");
-      // Wait 5 seconds before retrying
       delay(5000);
     }
   }
